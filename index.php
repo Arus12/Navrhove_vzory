@@ -28,4 +28,3 @@ $kvadrAdapter = new KvadrAdapter($simpleKvadr);
 * Tyto informace už jenom vypíšeme. 
 */
 print_r('Informace o kvadratické rovnici:<br>' . $kvadrAdapter->get_Info());
-?>
