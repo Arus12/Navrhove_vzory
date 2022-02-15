@@ -116,7 +116,7 @@ class KvadrAdapter {
         return ("Zadali jste a = " . $this->kvadrA->getB(). 
                 "<br>Zadali jste b = ". $this->kvadrA->getB().
                 "<br>Zadali jste c = ". $this->kvadrA->getC()).
-                "<br>Výsledek:<br>". $this->kvadrA->getKvadr();
+                "<br><br>Výsledek:<br>". $this->kvadrA->getKvadr();
     }
 }
 
